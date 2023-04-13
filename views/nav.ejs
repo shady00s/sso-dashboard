@@ -1,0 +1,27 @@
+<header>
+    <nav class="nav">
+        <h1>DashBoard</h1>
+        <ul>
+            <li class="icon" tabindex="1">icon</li>
+            <li><a>Home</a></li>
+            <li><a>Services</a></li>
+            <li><a class="login" href="/login">Login</a></li>
+            <li><a>Sign-up</a></li>
+        </ul>
+    </nav>
+    <script>
+        const nav = document.querySelector('.nav')
+        const iconButton = document.querySelector('.icon');
+        iconButton.addEventListener('click',()=>{
+            if (!nav.classList.contains('opend')){
+                nav.style.height = "14rem"
+                nav.classList.add('opend')
+
+            }else{
+                nav.classList.remove('opend')
+
+                nav.style.height ='3.5rem'
+            }
+        })
+    </script>
+</header>
