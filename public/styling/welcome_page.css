@@ -25,6 +25,7 @@ body{
     font-size: 3.5rem;
     padding:0.5rem 2rem;
     margin-bottom: 0;
+    line-height:1em;
 }
 .intro-section > .subtext{
     color: rgb(80, 80, 80);
@@ -50,7 +51,7 @@ body{
     width: 45%;
 
 }
-.button-container > button{
+.button-container > button, .button-container > a > button{
     padding: 0.3rem 0.5rem;
     border-width: 0.1rem;
     border-radius: 0.8rem;
@@ -58,6 +59,8 @@ body{
     border-color: rgba(161, 161, 161, 0.253);
     cursor: pointer;
 }
+
+
 
 .button-container > button:nth-child(2){
     background-color: darkcyan;
